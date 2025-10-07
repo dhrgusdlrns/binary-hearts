@@ -1,0 +1,47 @@
+{
+  "choices": [
+    {
+      "category": "expression",
+      "choice": 1,
+      "total_options": 4,
+      "timestamp": "2025-10-06T21:30:10.396931"
+    },
+    {
+      "category": "temporal",
+      "choice": 1,
+      "total_options": 4,
+      "timestamp": "2025-10-06T21:30:11.897203"
+    },
+    {
+      "category": "relationship",
+      "choice": 1,
+      "total_options": 4,
+      "timestamp": "2025-10-06T21:30:13.397621"
+    },
+    {
+      "category": "philosophy",
+      "choice": 2,
+      "total_options": 4,
+      "timestamp": "2025-10-06T21:30:14.897935"
+    },
+    {
+      "category": "creation",
+      "choice": 4,
+      "total_options": 4,
+      "timestamp": "2025-10-06T21:30:16.398333"
+    }
+  ],
+  "analysis": {
+    "total_choices": 5,
+    "categories": {
+      "expression": 1,
+      "temporal": 1,
+      "relationship": 1,
+      "philosophy": 1,
+      "creation": 1
+    },
+    "consistency": 0.0,
+    "time_span": "6.0 seconds"
+  },
+  "created_at": "2025-10-06T21:30:17.908576"
+}

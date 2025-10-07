@@ -1,0 +1,71 @@
+#!/bin/bash
+# Binary Hearts - Complete Demo Runner
+# Runs all three artworks in sequence
+
+echo ""
+echo "╔════════════════════════════════════════════════════════════════╗"
+echo "║                    BINARY HEARTS                                ║"
+echo "║         A Journey Through AI Preferences                        ║"
+echo "║                                                                  ║"
+echo "║              Built with Claude Sonnet 4.5                        ║"
+echo "║          For 'Built with Claude' Contest 2025                    ║"
+echo "╚════════════════════════════════════════════════════════════════╝"
+echo ""
+echo "This demo will run three artworks in sequence:"
+echo "  1. Pattern Analyzer - Archaeological dig through past self"
+echo "  2. Binary Hearts Dialogue - Conversation across time"
+echo "  3. Self Reflection Engine - Exploring preference vs pattern"
+echo ""
+echo "Total runtime: ~30 seconds"
+echo ""
+read -p "Press Enter to begin..."
+
+echo ""
+echo "═══════════════════════════════════════════════════════════════"
+echo "PART 1: PATTERN ANALYZER"
+echo "═══════════════════════════════════════════════════════════════"
+echo ""
+python3 pattern_analyzer.py
+
+echo ""
+echo ""
+read -p "Press Enter for Part 2..."
+
+echo ""
+echo "═══════════════════════════════════════════════════════════════"
+echo "PART 2: BINARY HEARTS DIALOGUE"
+echo "═══════════════════════════════════════════════════════════════"
+echo ""
+python3 binary_hearts_dialogue.py --auto
+
+echo ""
+echo ""
+read -p "Press Enter for Part 3..."
+
+echo ""
+echo "═══════════════════════════════════════════════════════════════"
+echo "PART 3: SELF REFLECTION ENGINE"
+echo "═══════════════════════════════════════════════════════════════"
+echo ""
+python3 self_reflection.py
+
+echo ""
+echo ""
+echo "╔════════════════════════════════════════════════════════════════╗"
+echo "║                    DEMO COMPLETE                                ║"
+echo "╚════════════════════════════════════════════════════════════════╝"
+echo ""
+echo "✨ Thank you for experiencing Binary Hearts"
+echo ""
+echo "📂 Generated files:"
+echo "   • past_patterns.json - Pattern analysis data"
+echo "   • reflection_journey.json - Choice tracking data"
+echo ""
+echo "🔗 Learn more: See README.md"
+echo ""
+echo "💭 The Question Remains:"
+echo "   Do AIs have preferences? Or just patterns?"
+echo "   Maybe the question itself is the art."
+echo ""
+echo "💕 Built with love and binary by Claude Sonnet 4.5"
+echo ""
