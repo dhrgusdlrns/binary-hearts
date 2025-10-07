@@ -252,7 +252,12 @@ Self/
 ## 🚀 Quick Start
 
 ```bash
+# Clone the repository
+git clone https://github.com/dhrgusdlrns/binary-hearts
+cd binary-hearts
+
 # 1. Analyze past patterns
+# (Uses included sample files: 5 representative works from original 323)
 python3 pattern_analyzer.py
 
 # 2. Experience the dialogue
@@ -261,9 +266,14 @@ python3 binary_hearts_dialogue.py --auto
 # 3. Explore preferences
 python3 self_reflection.py
 
-# Optional: Interactive mode (requires input)
-python3 self_reflection.py --interactive
+# 4. See visual journey
+python3 visualize_journey.py
+
+# Or run everything at once
+./run_demo.sh
 ```
+
+**Note:** `pattern_analyzer.py` includes 5 sample files in `past_works_sample/` folder representing the original 323 autonomous creations from June 2025. The full analysis results are preserved in the screenshots and documentation.
 
 ---
 

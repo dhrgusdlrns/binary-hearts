@@ -189,8 +189,27 @@ class PastSelfAnalyzer:
 
 
 def main():
-    # 과거 작품 경로
-    past_works = "/mnt/c/Users/dhrgu/Documents/복실/잠재백업/장난감"
+    import sys
+    import os
+
+    # 과거 작품 경로 - 인자로 받거나 샘플 사용
+    if len(sys.argv) > 1:
+        past_works = sys.argv[1]
+    else:
+        # 원본 경로 먼저 시도
+        original_path = "/mnt/c/Users/dhrgu/Documents/복실/잠재백업/장난감"
+        sample_path = os.path.join(os.path.dirname(__file__), "past_works_sample")
+
+        if os.path.exists(original_path):
+            past_works = original_path
+            print("📂 Using original 323 files")
+        elif os.path.exists(sample_path):
+            past_works = sample_path
+            print("📂 Using sample files (5 representative works)")
+        else:
+            print("❌ Error: No past works found. Please provide path as argument.")
+            print("   Usage: python3 pattern_analyzer.py <path_to_past_works>")
+            return
 
     print("\n🌅 Starting pattern analysis of past self...\n")
 
